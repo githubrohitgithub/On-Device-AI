@@ -1,0 +1,22 @@
+---
+description: Declare Gradle versions in build files, never in a version catalog
+alwaysApply: true
+---
+
+# Gradle dependencies
+
+Do not use a Gradle version catalog. Never create or edit `gradle/libs.versions.toml`, and never reference `libs.versions`, `libs.plugins`, or `alias(libs...)`.
+
+Put each plugin and library version in the Gradle build file that uses it.
+
+```kotlin
+plugins {
+    id("com.android.application") version "9.4.1" apply false
+}
+
+dependencies {
+    implementation("com.google.mediapipe:tasks-genai:0.10.27")
+}
+```
+
+An inline Compose BOM (`platform("androidx.compose:compose-bom:2026.02.01")`) is fine. A catalog file is not.

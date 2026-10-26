@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">On-device AI</string>
+    <string name="setup_title">Download the model</string>
+    <string name="setup_subtitle">Chat runs on this phone. Messages are not sent to a server.</string>
+    <string name="model_name">Qwen2.5 0.5B</string>
+    <string name="model_variant">Instruct · 8-bit</string>
+    <string name="model_description">Small instruction model for on-device chat.</string>
+    <string name="model_requirement">Use a 64-bit ARM phone. Emulators are not supported.</string>
+    <string name="model_ready">Downloaded on this phone</string>
+    <string name="size_mb">%1$s MB</string>
+    <string name="download_progress">%1$s MB of %2$s MB</string>
+    <string name="action_download">Download</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_start_chat">Start chat</string>
+    <string name="action_delete">Delete model</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_keep">Keep</string>
+    <string name="delete_title">Delete this model?</string>
+    <string name="delete_body">You will need to download the %1$s MB file again before you can chat.</string>
+    <string name="download_error_network">Download failed. Check your connection and try again.</string>
+    <string name="download_error_http">Download failed (HTTP %1$d).</string>
+    <string name="download_error_incomplete">The download did not finish. Try again.</string>
+    <string name="download_error_access">The model host refused the download.</string>
+    <string name="chat_title">Qwen2.5 0.5B</string>
+    <string name="chat_back">Back</string>
+    <string name="chat_new">New chat</string>
+    <string name="chat_loading">Loading the model into memory…</string>
+    <string name="chat_empty">Ask a question. The reply is generated on this phone.</string>
+    <string name="chat_hint">Message</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_stop">Stop</string>
+    <string name="chat_writing">Writing…</string>
+    <string name="chat_unsupported_device">This phone cannot run the on-device model. Use a 64-bit ARM device.</string>
+    <string name="chat_model_missing">The model file is missing. Go back and download it again.</string>
+    <string name="chat_model_load_failed">Could not load the model. %1$s</string>
+    <string name="chat_reply_failed">Could not generate a reply. %1$s</string>
+</resources>
